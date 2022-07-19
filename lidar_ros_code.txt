@@ -1,0 +1,11 @@
+cd ydlidar_ws/src 로 디렉토리 이동
+
+roscore
+
+새창 열기
+roslaunch ydlidar_ros_driver G2.launch
+
+새창 열기
+rostopic list (point_cloud 있는지 확인)
+
+rostopic echo point_cloud
